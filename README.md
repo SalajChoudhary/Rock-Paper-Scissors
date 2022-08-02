@@ -1,2 +1,2 @@
 # Rock-Paper-Scissors
-game of RPS
+First to 5 game of RPS
