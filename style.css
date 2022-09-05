@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    min-width: 100%;
+    max-width: 1280px;
+
+
+}
+
+.mainframeContainer{
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    font-weight: bolder;
+    font: larger;
+    padding: 30px;
+}
+
+.scoreboard{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+
+} 
+
+.score{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.textResult{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font: large;
+    padding: 15px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.rpsBtnContainer{
+    display: flex;
+    padding: 20px;
+}
+
+.playerButton{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.optionContainer{
+    display: flex;
+    padding: 20px;
+}
+
+.optionButton{
+    background-color: black;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}

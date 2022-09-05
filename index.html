@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
+    <link rel = 'stylesheet' href = 'style.css'>
 </head>
 <body>
+    <div class = 'container'>
+        <div class = 'mainframeContainer'>
+            <div class = 'title mainframe'> Rock, Paper, Scissors</div>
+            <div class = 'scoreboard mainframe'>You<span class = 'score playerScore'>0</span> - <span class = 'score computerScore'>0</span>CPU</div>
+            <div class = 'textResult mainframe'>Click rock, paper, or scissors to start playing a first to 5!</div>
+        </div>
+
+        <div class = 'rpsBtnContainer'>
+            <button class = 'playerButton rock'  id = 'rock'> <img class = 'rockPicture' src = 'images/rock.png' alt = 'Rock picture'></button>
+            <button class = 'playerButton paper' id = 'paper'> <img class = 'paperPicture' src = 'images/paper.png' alt = 'Paper picture'></button>
+            <button class = 'playerButton scissor'  id = 'scissor'><img class = 'scissorPicture' src = 'images/scissor.png' alt = 'Scissor pictuer'></button>
+        </div>
+
+        <div class = 'optionContainer'>
+            <button class = 'optionButton cheat'>Cheat</button>
+            <button class = 'optionButton restart'>Restart</button>
+        </div>
+
+    </div>
+
+
+
     <script src = "app.js"></script>
 
         
