@@ -84,7 +84,7 @@ if (playerScore == 5){
     if (playerSelection == computerSelection)
     {
 
-        textResult.addtextContent = `You have tied! Your choice of ${playerSelection} is the same as your opponent's choice of ${computerSelection}.\nPlayer:${playerScore} - Computer:${computerScore}`;
+        textResult.textContent = `You have tied! Your choice of ${playerSelection} is the same as your opponent's choice of ${computerSelection}.\nPlayer:${playerScore} - Computer:${computerScore}`;
         return;
     } else if ((playerSelection == 'rock' && computerSelection == 'paper') ||
                 (playerSelection == 'paper' && computerSelection == 'scissors') ||
